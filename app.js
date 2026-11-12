@@ -6,7 +6,7 @@ const products = [
   { id: 5, name: 'Kingston FURY Beast 16GB', category: 'RAM', label: 'BỘ NHỚ RAM', spec: '16GB DDR4 · 3200MHz', price: 1090000, badge: '', tone: 'yellow', image: 'DDR4.png' },
   { id: 6, name: 'Corsair Vengeance 16GB', category: 'RAM', label: 'BỘ NHỚ RAM', spec: '16GB DDR4 · 3200MHz', price: 1190000, badge: '', tone: 'peach', image: 'DDR42.png' },
   { id: 7, name: 'Kingston NV2 1TB', category: 'SSD', label: 'Ổ CỨNG SSD', spec: '1TB · M.2 NVMe PCIe 4.0', price: 1590000, badge: '', tone: 'blue', image: 'SSD1.jpg' },
-  { id: 8, name: 'Samsung 980 1TB', category: 'SSD', label: 'Ổ CỨNG SSD', spec: '1TB · M.2 NVMe PCIe 3.0', price: 1890000, badge: '', tone: 'sage', image: 'SSD2.jpg' }
+  { id: 8, name: 'Samsung 980 1TB', category: 'SSD', label: 'Ổ CỨNG SSD', spec: '1TB · M.2 NVMe PCIe 3.0', price: 3590000, badge: '', tone: 'sage', image: 'SSD2.jpg' }
 ];
 const formatPrice = value => new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND', maximumFractionDigits: 0 }).format(value);
 const grid = document.querySelector('#product-grid');

@@ -1,8 +1,8 @@
 const products = [
   { id: 1, name: 'AMD Ryzen 5 5600', category: 'CPU', label: 'BỘ VI XỬ LÝ', spec: '6 nhân / 12 luồng · Socket AM4', price: 2990000, badge: 'PHỔ BIẾN', tone: 'peach', image: 'ryzen5_5600.png' },
   { id: 2, name: 'Intel Core i5-12400F', category: 'CPU', label: 'BỘ VI XỬ LÝ', spec: '6 nhân / 12 luồng · Socket LGA1700', price: 3290000, badge: '', tone: 'blue'  },
-  { id: 3, name: 'GeForce RTX 4060 8GB', category: 'GPU', label: 'CARD ĐỒ HỌA', spec: '8GB GDDR6 · Hiệu năng chơi game', price: 8290000, badge: 'NỔI BẬT', tone: 'sage' image: '4060.png'},
-  { id: 4, name: 'Radeon RX 7600 8GB', category: 'GPU', label: 'CARD ĐỒ HỌA', spec: '8GB GDDR6 · Thiết kế hai quạt', price: 7490000, badge: '', tone: 'lavender' },
+  { id: 3, name: 'GeForce RTX 4060 8GB', category: 'GPU', label: 'CARD ĐỒ HỌA', spec: '8GB GDDR6 · Hiệu năng chơi game', price: 8290000, badge: 'NỔI BẬT', tone: 'sage', image: '4060.png'},
+  { id: 4, name: 'Radeon RX 7600 8GB', category: 'GPU', label: 'CARD ĐỒ HỌA', spec: '8GB GDDR6 · Thiết kế hai quạt', price: 7490000, badge: '', tone: 'lavender', image: "RX7600.png" },
   { id: 5, name: 'Kingston FURY Beast 16GB', category: 'RAM', label: 'BỘ NHỚ RAM', spec: '16GB DDR4 · 3200MHz', price: 1090000, badge: '', tone: 'yellow' },
   { id: 6, name: 'Corsair Vengeance 16GB', category: 'RAM', label: 'BỘ NHỚ RAM', spec: '16GB DDR4 · 3200MHz', price: 1190000, badge: '', tone: 'peach' },
   { id: 7, name: 'Kingston NV2 1TB', category: 'SSD', label: 'Ổ CỨNG SSD', spec: '1TB · M.2 NVMe PCIe 4.0', price: 1590000, badge: '', tone: 'blue' },

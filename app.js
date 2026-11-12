@@ -1,5 +1,5 @@
 const products = [
-  { id: 1, name: 'AMD Ryzen 5 5600', category: 'CPU', label: 'BỘ VI XỬ LÝ', spec: '6 nhân / 12 luồng · Socket AM4', price: 2990000, badge: 'PHỔ BIẾN', tone: 'peach' },
+  { id: 1, name: 'AMD Ryzen 5 5600', category: 'CPU', label: 'BỘ VI XỬ LÝ', spec: '6 nhân / 12 luồng · Socket AM4', price: 2990000, badge: 'PHỔ BIẾN', tone: 'peach', image: 'ryzen5_5600.png' },
   { id: 2, name: 'Intel Core i5-12400F', category: 'CPU', label: 'BỘ VI XỬ LÝ', spec: '6 nhân / 12 luồng · Socket LGA1700', price: 3290000, badge: '', tone: 'blue' },
   { id: 3, name: 'GeForce RTX 4060 8GB', category: 'GPU', label: 'CARD ĐỒ HỌA', spec: '8GB GDDR6 · Hiệu năng chơi game', price: 8290000, badge: 'NỔI BẬT', tone: 'sage' },
   { id: 4, name: 'Radeon RX 7600 8GB', category: 'GPU', label: 'CARD ĐỒ HỌA', spec: '8GB GDDR6 · Thiết kế hai quạt', price: 7490000, badge: '', tone: 'lavender' },

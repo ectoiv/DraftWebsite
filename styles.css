@@ -319,3 +319,62 @@ img{max-width:100%;display:block}
   .story-hero-inner>div:first-child{padding:48px 0 10px}
   .story-hero .build-visual{min-height:260px}
 }
+
+/* Cỡ chữ theo thứ bậc của một cửa hàng linh kiện: nội dung dễ đọc,
+   tên và thông số rõ ràng, giá nổi bật hơn thông tin phụ. */
+:root{--type-body:16px;--type-caption:12px;--type-price:20px}
+body{font-size:var(--type-body)}
+.announcement{font-size:11px}
+.logo small{font-size:9px}
+.nav-links,.header-link{font-size:14px}
+.cart-count{font-size:11px}
+.eyebrow,.section-kicker{font-size:var(--type-caption)}
+.hero-title{font-size:clamp(34px,3.8vw,52px)}
+.hero-description{font-size:16px;line-height:1.7}
+.hero-stats{font-size:12px}
+.button{font-size:16px;line-height:1.35}
+.benefit strong{font-size:14px}
+.benefit p,.benefit small{font-size:13px}
+.section-title{font-size:clamp(24px,2.2vw,28px);line-height:1.3}
+.section-description,.page-intro{font-size:15px}
+.category-tab,.search-box input{font-size:14px}
+.catalog-meta,.product-category{font-size:12px}
+.product-badge,.product-index{font-size:11px}
+.product-name{font-size:14px;line-height:1.45}
+.product-spec{font-size:13px;line-height:1.5}
+.product-price{font-size:var(--type-price)}
+.text-link,.category-card-action{font-size:13px}
+.demo-note{font-size:13px}
+.build-copy h2{font-size:clamp(28px,2.7vw,36px)}
+.category-card-number{font-size:12px}
+.category-card strong{font-size:32px}
+.category-card p{font-size:14px}
+.breadcrumbs{font-size:13px}
+.detail-copy h1{font-size:22px;line-height:1.3;letter-spacing:-.02em}
+.detail-spec{font-size:14px}
+.detail-price{font-size:28px;line-height:1.25}
+.detail-description{font-size:15px;line-height:1.65}
+.specs-section h2,.story-content h2{font-size:24px}
+.specs-table th,.specs-table td{font-size:14px;line-height:1.6}
+.story-hero h1{font-size:clamp(28px,3vw,38px)}
+.footer p,.footer a:not(.logo){font-size:14px}
+.footer-grid strong,.footer-bottom,.footer-bottom a:not(.logo){font-size:12px}
+.cart-header .section-kicker{font-size:12px}
+.cart-item-info strong{font-size:14px}
+.cart-item-info small,.cart-empty p,.cart-summary p{font-size:13px}
+.quantity-control,.continue-shopping,.checkout-back{font-size:14px}
+.checkout-form>p,.checkout-identity,.checkout-option,.checkout-success{font-size:14px}
+.checkout-options legend,.checkout-total{font-size:14px}
+@media(max-width:680px){
+  .announcement{font-size:10px}
+  .hero-title{font-size:34px}
+  .product-name{font-size:14px}
+  .product-price{font-size:19px}
+  .product-spec{font-size:13px}
+  .detail-copy h1{font-size:20px}
+  .category-card strong{font-size:28px}
+}
+@media(max-width:480px){
+  .product-bottom{align-items:flex-start;flex-direction:column}
+  .add-button{width:100%}
+}

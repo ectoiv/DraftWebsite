@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#142c29">
+  <meta name="description" content="MAT UY TIN PC — góc linh kiện cho chiếc máy tính tiếp theo của bạn.">
+  <title>Danh mục — MAT UY TIN PC</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="announcement">LINH KIỆN TỐT. Ý TƯỞNG LỚN. <span>✳</span> BẮT ĐẦU TỪ CHIẾC MÁY CỦA BẠN.</div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html" aria-label="MAT UY TIN PC — về trang chủ"><span class="logo-mark">T<span>✳</span></span><span>MAT UY TIN<span class="logo-dot">.</span>PC<small>BUILD YOUR THING</small></span></a>
+      <nav class="nav-links" aria-label="Điều hướng chính"><a href="index.html">Trang chủ</a><a href="products.html">Sản phẩm</a><a href="categories.html" aria-current="page">Danh mục</a><a href="backstory.html">Câu chuyện</a></nav>
+      <div class="header-actions"><a class="header-link" href="products.html">Khám phá ngay <span>↗</span></a><button class="icon-button cart-trigger" type="button" aria-label="Mở giỏ hàng"><span aria-hidden="true">▢</span><span class="cart-count">0</span></button></div>
+    </div>
+  </header>
+  <main id="top">
+
+    <section class="page-section"><div class="container"><p class="section-kicker">CHỌN THEO NHU CẦU</p><h1 class="section-title">Danh mục <em>linh kiện.</em></h1><p class="page-intro">Tìm mảnh ghép phù hợp cho chiếc máy của bạn.</p>
+      <div class="category-grid">
+        <a class="category-card peach" href="products.html?category=CPU"><span class="category-card-number">01 / BỘ VI XỬ LÝ</span><strong>CPU</strong><p>Bộ não của chiếc máy, từ học tập đến chơi game.</p><span class="category-card-action">Xem bộ vi xử lý ↗</span></a>
+        <a class="category-card sage" href="products.html?category=GPU"><span class="category-card-number">02 / CARD ĐỒ HỌA</span><strong>GPU</strong><p>Hiệu năng đồ họa cho game và các ý tưởng sáng tạo.</p><span class="category-card-action">Xem card đồ họa ↗</span></a>
+        <a class="category-card yellow" href="products.html?category=RAM"><span class="category-card-number">03 / BỘ NHỚ</span><strong>RAM</strong><p>Thêm không gian cho những tác vụ hằng ngày.</p><span class="category-card-action">Xem bộ nhớ RAM ↗</span></a>
+        <a class="category-card blue" href="products.html?category=SSD"><span class="category-card-number">04 / LƯU TRỮ</span><strong>SSD</strong><p>Lưu trữ dữ liệu và tải ứng dụng nhanh chóng.</p><span class="category-card-action">Xem ổ cứng ↗</span></a>
+      </div><p class="demo-note">* Sản phẩm và giá được dùng để minh họa cho bản demo.</p>
+    </div></section>
+  </main>
+  <footer class="footer"><div class="container"><div class="footer-grid"><div><a class="logo footer-logo" href="index.html"><span class="logo-mark">T<span>✳</span></span><span>MAT UY TIN<span class="logo-dot">.</span>PC<small>BUILD YOUR THING</small></span></a><p>Linh kiện tốt cho những ý tưởng lớn.<br>Hãy bắt đầu từ chiếc máy của bạn.</p></div><div><strong>KHÁM PHÁ</strong><a href="products.html">Sản phẩm</a><a href="categories.html">Danh mục</a><a href="backstory.html">Về MAT UY TIN PC</a></div><div id="lien-he"><strong>LIÊN HỆ</strong><p>Gặp trực tiếp nhóm dự án MAT UY TIN PC tại buổi giới thiệu poster để được tư vấn và góp ý nhé.</p></div><div class="footer-tagline">BUILD YOUR<br><em>THING.</em> <span>✳</span></div></div><div class="footer-bottom"><span>© 2026 MAY UY TIN PC. MADE FOR BUILDERS.</span><a href="#top">LÊN ĐẦU TRANG ↑</a></div></div></footer>
+  <div class="cart-overlay" id="cart-overlay" hidden></div>
+  <aside class="cart-drawer" id="cart-drawer" role="dialog" aria-modal="true" aria-labelledby="cart-title" aria-hidden="true">
+    <div class="cart-header"><div><p class="section-kicker">MAT UY TIN PC / GIỎ HÀNG</p><h2 id="cart-title">Giỏ hàng của bạn<span>.</span></h2></div><button class="close-cart" type="button" aria-label="Đóng giỏ hàng">×</button></div>
+    <div class="cart-items" id="cart-items"></div>
+    <div class="cart-summary" id="cart-summary"><div><span>Tạm tính</span><strong id="cart-total">0 ₫</strong></div><p>Đây là bản demo. Không thanh toán hoặc đặt hàng thực tế.</p><button class="button button-primary checkout-button" type="button" disabled>Đặt hàng thử <span>↗</span></button><button class="continue-shopping" type="button">Tiếp tục chọn linh kiện</button></div>
+    <form class="checkout-form" id="checkout-form" hidden>
+      <p>Đây là đơn hàng mô phỏng. Không nhập thông tin cá nhân thật và không chuyển tiền.</p>
+      <div class="checkout-identity"><strong>Thông tin khách hàng mẫu</strong><p>Tên: Sinh viên Demo<br>Số điện thoại: 000 000 0000</p></div>
+      <fieldset class="checkout-options"><legend>Chọn cách thanh toán thử</legend><label class="checkout-option"><input type="radio" name="payment" value="Thanh toán khi nhận hàng (thử)" checked> Thanh toán khi nhận hàng (thử)</label><label class="checkout-option"><input type="radio" name="payment" value="Chuyển khoản (thử)"> Chuyển khoản (thử)</label></fieldset>
+      <div class="checkout-total"><span>Tổng đơn hàng thử</span><strong id="checkout-total">0 ₫</strong></div>
+      <button class="button button-primary" type="submit">Xác nhận đơn thử <span>↗</span></button><button class="checkout-back" type="button">← Quay lại giỏ hàng</button>
+    </form>
+    <div class="checkout-success" id="checkout-success" hidden role="status" aria-live="polite"><span aria-hidden="true">✳</span><h3>Đơn thử đã được xác nhận!</h3><p>Bạn đã hoàn tất trải nghiệm mua hàng tại MAT UY TIN PC.</p><p id="confirmation-details"></p><p>Đây chỉ là mô phỏng: không có đơn hàng hay giao dịch thực tế.</p><button class="button button-primary success-close" type="button">Tiếp tục khám phá <span>↗</span></button></div>
+  </aside>
+</body>
+</html>

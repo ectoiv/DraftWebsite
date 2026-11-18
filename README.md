@@ -35,4 +35,4 @@ Mỗi lần cập nhật các file trên nhánh đã chọn, GitHub Pages sẽ t
 
 Giỏ hàng vẫn được lưu trên trình duyệt và được dùng chung giữa các trang. Nút **Mua ngay** thêm sản phẩm vào giỏ rồi mở bước đặt hàng thử; các sản phẩm khác đã có trong giỏ cũng sẽ được tính vào đơn thử. Sản phẩm, giá và toàn bộ quy trình đặt hàng chỉ mang tính minh họa.
 
-Khi cập nhật `app.js` hoặc `styles.css`, hãy đổi tham số `v` trong cả năm file HTML để trình duyệt tải phiên bản mới của tệp.
+Khi cập nhật giao diện, hãy đổi tham số `v` trong cả năm file HTML và ở đường dẫn chi tiết sản phẩm trong `app.js` để trình duyệt tải phiên bản mới của tệp và trang.

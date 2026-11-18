@@ -378,3 +378,11 @@ body{font-size:var(--type-body)}
   .product-bottom{align-items:flex-start;flex-direction:column}
   .add-button{width:100%}
 }
+
+/* Đọc câu chuyện và các luận điểm trên mọi cỡ màn hình. */
+.story-copy p{margin:0 0 20px;line-height:1.8}
+.story-copy strong,.story-reasons-list strong{color:var(--ink)}
+.story-reasons{padding:76px 0 90px;background:#e8eee8}
+.story-reasons-list{display:grid;gap:16px;margin:24px 0;padding:0;list-style:none}
+.story-reasons-list li{padding:18px 20px;border-left:3px solid var(--orange);border-radius:0 8px 8px 0;background:#fff;color:#485961;line-height:1.8}
+@media(max-width:680px){.story-reasons{padding:50px 0 65px}.story-reasons-list li{padding:16px}}

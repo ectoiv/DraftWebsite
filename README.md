@@ -13,11 +13,7 @@ python3 -m http.server 8000
 Truy cập `http://localhost:8000`. Không cần cài thư viện, biến môi trường hay bước build.
 
 ## Đưa lên GitHub Pages
-
-1. Tạo một repository mới trên GitHub và tải toàn bộ các file trong thư mục này lên nhánh `main` (đảm bảo `index.html` nằm ở thư mục gốc repository).
-2. Trong repository, mở **Settings → Pages**. Ở **Build and deployment**, chọn **Deploy from a branch**, chọn nhánh `main` và thư mục `/ (root)`, sau đó nhấn **Save**.
-3. Khi GitHub Pages hoàn tất triển khai, mở đường dẫn được hiển thị trong mục Pages. Thông thường đường dẫn có dạng `https://<tên-tài-khoản>.github.io/<tên-repository>/`.
-4. Cập nhật `links.txt` bằng đường dẫn website và repository thực tế. Có thể dùng đường dẫn website để tạo mã QR cho poster hoặc bản trình bày.
+Quét QR được nhóm đưa ra hoặc truy cập vào liên kết https://ectoiv.github.io/DraftWebsite/
 
 Mỗi lần cập nhật các file trên nhánh đã chọn, GitHub Pages sẽ triển khai lại. Các đường dẫn tài nguyên trong dự án đều là đường dẫn tương đối để hoạt động trong repository con.
 

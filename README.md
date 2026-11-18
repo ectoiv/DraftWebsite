@@ -23,3 +23,14 @@ Mỗi lần cập nhật các file trên nhánh đã chọn, GitHub Pages sẽ t
 - Chỉ dùng thông tin khách hàng giả trong phần mô phỏng; không nhập hoặc cung cấp thông tin cá nhân thật.
 - Giỏ hàng được lưu bằng `localStorage` trên thiết bị đang dùng và có thể bị xóa khi dữ liệu trình duyệt bị xóa. Không dùng trang này để kinh doanh thực tế khi chưa bổ sung máy chủ, quản lý đơn hàng và các chức năng cần thiết.
 - Phông chữ tải từ Google Fonts nếu có kết nối mạng; trang vẫn dùng phông dự phòng khi không tải được.
+
+
+## Cấu trúc trang
+
+- `index.html`: trang chủ.
+- `products.html`: danh sách, tìm kiếm và lọc sản phẩm. Tham số `category` có thể là `CPU`, `GPU`, `RAM` hoặc `SSD`.
+- `categories.html`: các danh mục linh kiện.
+- `product.html?id=1` đến `product.html?id=8`: thông tin chi tiết và thông số của từng sản phẩm.
+- `backstory.html`: câu chuyện dự án.
+
+Giỏ hàng vẫn được lưu trên trình duyệt và được dùng chung giữa các trang. Nút **Mua ngay** thêm sản phẩm vào giỏ rồi mở bước đặt hàng thử; các sản phẩm khác đã có trong giỏ cũng sẽ được tính vào đơn thử. Sản phẩm, giá và toàn bộ quy trình đặt hàng chỉ mang tính minh họa.
